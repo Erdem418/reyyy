@@ -1,19 +1,32 @@
 {
-  "name": "discord-mod-bot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "discord.js",
+  "//1": "B$T4 Code",
+  "//2": "B$T4 Code",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "Developed by B$T4.",
+  "main": "bot.js",
   "scripts": {
-    "start": "node beta.js"
+    "start": "node bot.js"
   },
-  "author": "Beta",
-  "license": "MIT",
   "dependencies": {
-    "discord.js": "^12.5.3",
-    "fs": "0.0.1-security",
-    "moment": "^2.29.1",
-    "ms": "^2.1.3",
-    "quick.db": "^7.1.3"
-    
-  }
+    "express": "^4.17.1",
+    "discord.js": "^12.2.0",
+    "chalk": "^4.0.0",
+    "moment": "^2.26.0",
+    "jimp": "^0.12.1",
+    "quick.db": "^7.1.1",
+    "snekfetch": "^4.0.4"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }
